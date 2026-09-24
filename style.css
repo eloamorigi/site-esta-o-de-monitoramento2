@@ -1,0 +1,149 @@
+/* CONFIGURAÇÃO GERAL */
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+/* CORPO DA PÁGINA */
+ 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    text-align: center;
+}
+ 
+/* CABEÇALHO */
+ 
+header {
+    background-color: #1565c0;
+    color: white;
+    padding: 30px 20px;
+}
+ 
+header h1 {
+    margin-bottom: 10px;
+}
+ 
+/* CONTEÚDO PRINCIPAL */
+ 
+main {
+    max-width: 1100px;
+    margin: auto;
+    padding: 30px 20px;
+}
+ 
+/* PAINEL DOS SENSORES */
+ 
+.painel {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+ 
+/* CARDS */
+ 
+.card {
+    background-color: white;
+    width: 280px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+ 
+.card h2 {
+    margin-bottom: 20px;
+}
+ 
+/* VALORES DOS SENSORES */
+ 
+.valor {
+    font-size: 35px;
+    font-weight: bold;
+    color: #1565c0;
+}
+ 
+/* SITUAÇÃO */
+ 
+.status {
+    background-color: white;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+ 
+#situacao {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+ 
+/* ÁREA DE ATUALIZAÇÃO */
+ 
+.atualizacao {
+    margin: 30px 0;
+}
+ 
+.atualizacao p {
+    margin-bottom: 15px;
+}
+ 
+/* BOTÃO */
+ 
+button {
+    background-color: #1565c0;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+ 
+button:hover {
+    background-color: #0d47a1;
+}
+ 
+/* SOBRE O PROJETO */
+ 
+.sobre {
+    background-color: white;
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 12px;
+    line-height: 1.6;
+}
+ 
+.sobre h2 {
+    margin-bottom: 15px;
+}
+ 
+/* RODAPÉ */
+ 
+footer {
+    background-color: #263238;
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+}
+ 
+/* RESPONSIVIDADE */
+ 
+@media (max-width: 700px) {
+ 
+    .painel {
+        flex-direction: column;
+        align-items: center;
+    }
+ 
+    .card {
+        width: 100%;
+    }
+}
